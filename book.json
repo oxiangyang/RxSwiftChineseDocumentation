@@ -1,0 +1,56 @@
+{
+    "generator": "site",
+    "title": "RxSwift 中文文档",
+    "description": null,
+    "structure": {
+        "readme": "introduction.md"
+    },
+    "language": "zh",
+    "plugins": [
+        "jsbin",
+        "anchors",
+        "video",
+        "ga",
+        "toggle-chapters",
+        "editlink",
+        "include-codeblock",
+        "splitter",
+        "github-buttons",
+        "chart",
+        "include-highlight",
+        "tonic"
+    ],
+    "theme": "theme",
+    "pluginsConfig": {
+        "fontSettings": {
+            "theme": "white",
+            "family": "sans"
+        },
+        "ga": {
+            "token": "UA-63403975-1"
+        },
+        "editlink": {
+            "base": "https://github.com/beeth0ven/RxSwift-Chinese-Documentation/edit/master",
+            "label": "编辑页面"
+        },
+        "github-buttons": {
+            "repo": "beeth0ven/RxSwift-Chinese-Documentation",
+            "types": [
+                "star"
+            ],
+            "size": "small",
+            "buttons": [
+              {
+                "user": "beeth0ven",
+                "repo": "RxSwift-Chinese-Documentation",
+                "type": "star",
+                "size": "small",
+                "count": true
+              }
+            ]
+        }
+    },
+    "variables": {
+        "isPdf": false
+    }
+}
